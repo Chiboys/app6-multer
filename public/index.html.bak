@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<div><h3 id="filename"></h3></div><!-- 文件名字-->
+	<div>
+	<form id='editfile' method='post' action='/upload' enctype='multipart/form-data'>
+    <input name="text" type="text"/>
+    选择文件：<input name="avatar" id='upfile' type='file'/>
+    <input type='submit' value='提交'/>
+	</form>
+	</div><!--操作按钮-->
+ </body>
+</html>
